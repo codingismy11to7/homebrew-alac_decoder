@@ -2,8 +2,8 @@ require 'formula'
 
 class AlacDecoder < Formula
   homepage 'http://craz.net/programs/itunes/alac.html'
-  url 'http://craz.net/programs/itunes/files/alac_decoder-0.2.0.tgz'
-  md5 'cec75c35f010d36e7bed91935b57f2d1'
+  url 'https://distfiles.macports.org/alac_decoder/alac_decoder-0.2.0.tgz'
+  sha256 '7f8f978a5619e6dfa03dc140994fd7255008d788af848ba6acf9cfbaa3e4122f'
 
   def install
     system "make", "CFLAGS=#{ENV.cflags}", "CC=#{ENV.cc}"
