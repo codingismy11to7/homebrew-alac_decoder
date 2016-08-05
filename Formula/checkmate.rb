@@ -3,7 +3,7 @@ require 'formula'
 class Checkmate < Formula
   homepage 'http://checkmate.gissen.nl/'
   url 'http://checkmate.gissen.nl/checkmate-0.19.tar.gz'
-  sha1 '4d96d65c9ad8c738cb87d197a45938ca955337d6'
+  sha256 '940f95d445bab629051930ef61c5614bdfbe9df6f450f1ffab86eaf885e79195'
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
